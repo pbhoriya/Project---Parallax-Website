@@ -56,15 +56,15 @@ section {
 }
 
 .bg1 {
-    background-image: url(/Images/Riding.jpg);
+    background-image: url(./Images/Riding.jpg);
 }
 
 .bg2 {
-    background-image: url(/Images/Para\ gliding.jpg);
+    background-image: url(./Images/pera_gl.jpg);
 }
 
 .bg3 {
-    background-image: url(/Images/Surfing.jpg);
+    background-image: url(./Images/Surfing.jpg);
 }
 
 .bg {
