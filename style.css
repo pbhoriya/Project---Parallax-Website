@@ -1,0 +1,101 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+}
+
+.MB,
+.HF {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.MB {
+    transform: translateZ(-40px) scale(7);
+}
+
+.HF {
+    transform: translateZ(-20px) scale(3);
+}
+
+h1 {
+    font-size: 9rem;
+    color: white;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 6rem;
+    font-family: verdana;
+    text-shadow: -3px -3px 5px grey;
+}
+
+section {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    width: 100%;
+    padding: 5rem 0;
+}
+
+.bg1 {
+    background-image: url(/Images/Riding.jpg);
+}
+
+.bg2 {
+    background-image: url(/Images/Para\ gliding.jpg);
+}
+
+.bg3 {
+    background-image: url(/Images/Surfing.jpg);
+}
+
+.bg {
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+}
+
+.AT {
+    padding: 0 5rem;
+    font-size: 4rem;
+}
+
+.textdata {
+    padding: 0 5rem;
+    font-size: 2rem;
+    margin: 3rem 0;
+}
+
+
+.midhead {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: white;
+    transform: translateX(-50%) translateY(-50%);
+    color: black;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 0.5rem 2.5rem;
+}
